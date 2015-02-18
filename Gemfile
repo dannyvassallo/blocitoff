@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'factory_girl_rails', '~> 4.0'
 end
 
 group :development do
